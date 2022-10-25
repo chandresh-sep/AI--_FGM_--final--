@@ -8,7 +8,7 @@
 #note
 {
     font-size: 15px;
-    color: black;
+    color: rgb(255, 0, 0);
 }
 
 body
@@ -16,14 +16,48 @@ body
     background-size:cover;
 }
 
-#play
+.div_speed
 {
-    width: 150px;
-    font-size: 45px;
+    float: left;
 }
 
-.canvas
+.div_speed_img
 {
-    border: 6px ridge, rgb(255, 255, 255);
-    border-radius: 18px;
+    width: 200px;
+    border-radius: 100;
+}
+
+#speed
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume
+{
+    float: right;
+}
+
+.div_volume_img
+{
+    width: 200px;
+    border-radius: 100;
+}
+
+#volume
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.play_button
+{
+    width: 130px;
+    font-size: 25px;
+}
+
+canvas
+{
+    border: 7.5px ridge rgb(113, 145, 239);
+    border-radius: 20px;
 }
